@@ -1,0 +1,89 @@
+a {
+    text-decoration: none;
+}
+.high{
+    font-size: 50px;
+}
+.active {
+    background: rgba(246, 143, 0, 0.89);
+    background-size: auto;
+}
+.text{
+    margin-top: 10px;
+    float: left;
+    width: 30%;
+    size: auto;
+    font: 18px "Calibri Light";
+    resize: none;
+}
+.send{
+    margin: 10px;
+    border: none;
+    float: left;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: 18px "Comic Sans MS";
+    background-color: #51ff51;
+}
+.send:hover{
+    background-color: #fabc25;
+}
+.column {
+    overflow-y: scroll;
+    border-radius: 10px;
+    text-align: center;
+    background: #18c037;
+    float: left;
+    width: 20%;
+    word-wrap: break-word;
+    margin: 0 auto;
+    padding: 10px;
+    height: 600px;
+}
+.column1 {
+    overflow-y: scroll;
+    border-radius: 10px;
+    text-align: center;
+    background: #61dafb;
+    float: left;
+    width: 20%;
+    word-wrap: break-word;
+    margin: 0 auto;
+    padding: 10px;
+    height: 600px;
+}
+.row{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.friend{
+    margin-top: 10px;
+    border-color: #282c34;
+    border-radius: 12px;
+}
+.friends{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 22px;
+    padding: 10px;
+    font-weight: 400;
+    grid-area: f;
+    display: grid;
+}
+.message{
+    width: auto;
+    text-align: justify;
+    background-color: cadetblue;
+    background-size: auto;
+    margin-top: 10px;
+    font: 20px cursive;
+    padding: 10px;
+}

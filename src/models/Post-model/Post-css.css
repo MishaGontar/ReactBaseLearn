@@ -1,0 +1,15 @@
+.post{
+    padding: 10px;
+    font-size: 20px;
+    width: 25%;
+    margin-top: 10px;
+    background: #a0d0c6;
+    word-wrap: break-word;
+}
+.userNamePost{
+ background: #61dafb;
+ float: left;
+ font: 23px cursive;
+ margin: 2px;
+
+}
